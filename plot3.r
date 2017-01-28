@@ -35,5 +35,5 @@ ggplot(fems, aes(fems$year, fems$Emissions, color=type))+
   ggtitle("Total PM2.5 Emissions in Baltimore City, 
           Maryland from 1999 to 2008")
 
-dev.copy(png, "plot3.png", height = 480, widht = 480)
-def.off()
+dev.copy(png, "plot3.png", width = 480, height = 480)
+dev.off()
