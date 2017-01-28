@@ -19,5 +19,5 @@ head(total.maryland)
 barplot(height=total.maryland$Emissions/1000, names.arg=total.maryland$year,
         xlab = "Year", ylab = "Emissions", main = "Total PM2.5 Emission in Baltimore")
 
-dev.copy(png, "plot1.png", width = 480, height = 480)
+dev.copy(png, "plot2.png", width = 480, height = 480)
 dev.off()
